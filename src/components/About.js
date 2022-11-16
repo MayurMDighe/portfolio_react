@@ -1,6 +1,5 @@
 import React from 'react';
-import Menu from './Menu';
-
+import { NavLink } from 'react-router-dom';
 const About = () => {
   return (
     <>
@@ -52,7 +51,8 @@ const About = () => {
                      <div class="work-wrapper">
                          <p class="tag text-center">Let's work together on your next project !</p>
                          <div class="connect-btns text-center">
-                             <a href="contact.html" class="btn contact"><span class="slide-in-left">Contact me</span><span class="slide-in-right">Contact me</span></a>
+                             {/* <a href="contact.html" class="btn contact"><span class="slide-in-left">Contact me</span><span class="slide-in-right">Contact me</span></a> */}
+                             <NavLink className="btn contact" to={'/contact'}><span class="slide-in-left">Contact me</span><span class="slide-in-right">Contact me</span></NavLink> 
                              <a href="#" class="btn cv"><span class="slide-in-left">Download CV</span><span class="slide-in-right">Download CV</span></a> 
                          </div>  
                      </div> 

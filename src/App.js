@@ -8,6 +8,7 @@ import{BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Test from './components/Test';
+import Test1 from './components/Test1';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
                   <Route path='/about' element={<About/>}> </Route>
                   <Route path='/contact' element={<Contact/>}> 
                       <Route path='/contact/test' element={<Test/>}></Route>
+                      <Route path='/contact/test1' element={<Test1/>}></Route>
                   </Route>
                  </Routes>
               <Footer/>

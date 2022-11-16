@@ -48,7 +48,8 @@ const Contact = () => {
          </div> 
     </section>
   
-    <NavLink to={'/contact/test'}>Test</NavLink> 
+    <NavLink to={'/contact/test'}>Test</NavLink>
+    <NavLink to={'/contact/test1'}>Test1</NavLink> 
     <Outlet/>
      
     </>

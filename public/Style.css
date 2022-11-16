@@ -250,7 +250,7 @@ button.carousel-control-next{
     display: none;
 }
 .work-together span.slide-in-right{
-    transform: translateX(-140%);
+    transform: translateX(-150%);
     display: inline-block;
     transition: .5s ease all;
 }
