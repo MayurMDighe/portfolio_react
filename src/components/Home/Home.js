@@ -1,9 +1,11 @@
 import React from 'react';
 import Skills from './Skills';
 import Projects from './Projects';
+import Menu from '../Menu';
 const Home = () => {
   return (
     <>
+    {/* <Menu/> */}
     <section className="intro-section">
         <div className="container">
             <div className="row">
